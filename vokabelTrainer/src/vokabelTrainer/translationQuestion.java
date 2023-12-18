@@ -47,13 +47,13 @@ public class translationQuestion extends JFrame {
 		contentPane.setLayout(null);
 		
 		textField = new JTextField();
-		textField.setBounds(123, 122, 203, 26);
+		textField.setBounds(123, 152, 203, 26);
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
 		JLabel lblNewLabel = new JLabel("Give the correct translation of the following word");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setBounds(69, 30, 323, 16);
+		lblNewLabel.setBounds(67, 86, 323, 16);
 		contentPane.add(lblNewLabel);
 		
 		JButton btnNewButton = new JButton("Check!");
@@ -61,13 +61,17 @@ public class translationQuestion extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		btnNewButton.setBounds(156, 190, 130, 29);
+		btnNewButton.setBounds(173, 218, 117, 29);
 		contentPane.add(btnNewButton);
 		
 		JLabel lblNewLabel_1 = new JLabel("Word");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setBounds(190, 79, 61, 16);
+		lblNewLabel_1.setBounds(196, 124, 61, 16);
 		contentPane.add(lblNewLabel_1);
+		
+		JButton btnNewButton_1 = new JButton("main menu");
+		btnNewButton_1.setBounds(327, 6, 117, 29);
+		contentPane.add(btnNewButton_1);
 	}
 
 }
