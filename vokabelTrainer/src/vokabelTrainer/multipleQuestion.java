@@ -45,19 +45,19 @@ public class multipleQuestion extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JCheckBox option1 = new JCheckBox("New check box");
+		JCheckBox option1 = new JCheckBox("option_1");
 		option1.setBounds(77, 104, 128, 23);
 		contentPane.add(option1);
 		
-		JCheckBox option2 = new JCheckBox("New check box");
+		JCheckBox option2 = new JCheckBox("option_2");
 		option2.setBounds(77, 149, 128, 23);
 		contentPane.add(option2);
 		
-		JCheckBox option3 = new JCheckBox("New check box");
+		JCheckBox option3 = new JCheckBox("option_3");
 		option3.setBounds(265, 104, 128, 23);
 		contentPane.add(option3);
 		
-		JCheckBox option4 = new JCheckBox("New check box");
+		JCheckBox option4 = new JCheckBox("option_3");
 		option4.setBounds(265, 149, 128, 23);
 		contentPane.add(option4);
 		
