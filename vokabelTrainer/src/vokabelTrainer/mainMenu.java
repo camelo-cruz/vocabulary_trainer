@@ -45,28 +45,28 @@ public class mainMenu extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JButton btnNewButton = new JButton("start learning");
+		JButton btnNewButton = new JButton("Start learning");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		btnNewButton.setBounds(154, 177, 161, 29);
+		btnNewButton.setBounds(73, 154, 161, 29);
 		contentPane.add(btnNewButton);
 		
 		JLabel lblNewLabel = new JLabel("alejandracamelo");
-		lblNewLabel.setBounds(41, 29, 102, 16);
+		lblNewLabel.setBounds(92, 39, 102, 16);
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("total score: 0");
-		lblNewLabel_1.setBounds(288, 29, 96, 16);
+		lblNewLabel_1.setBounds(264, 39, 96, 16);
 		contentPane.add(lblNewLabel_1);
 		
 		JLabel lblNewLabel_2 = new JLabel("learning: russian");
-		lblNewLabel_2.setBounds(41, 57, 116, 16);
+		lblNewLabel_2.setBounds(92, 67, 116, 16);
 		contentPane.add(lblNewLabel_2);
 		
 		JLabel lblNewLabel_3 = new JLabel("level: basic");
-		lblNewLabel_3.setBounds(41, 85, 116, 16);
+		lblNewLabel_3.setBounds(264, 67, 116, 16);
 		contentPane.add(lblNewLabel_3);
 		
 		JButton btnNewButton_1 = new JButton("Change user");
@@ -74,8 +74,19 @@ public class mainMenu extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		btnNewButton_1.setBounds(154, 216, 161, 29);
+		btnNewButton_1.setBounds(246, 154, 161, 29);
 		contentPane.add(btnNewButton_1);
+		
+		JButton btnNewButton_2 = new JButton("How to play?");
+		btnNewButton_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		btnNewButton_2.setBounds(73, 195, 161, 29);
+		contentPane.add(btnNewButton_2);
+		
+		JButton btnNewButton_3 = new JButton("Credits");
+		btnNewButton_3.setBounds(246, 195, 161, 29);
+		contentPane.add(btnNewButton_3);
 	}
-
 }
